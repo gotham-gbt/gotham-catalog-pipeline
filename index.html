@@ -108,8 +108,36 @@
         u_a: 4.33
         smiles: "C#CC#CC#N"
         name: "HC5N"
+        formula: "HC5N"
         </pre>
         <p>The point here is to not need to think about how to write this with SPCAT&mdash;the <code>sewers</code> has functionality to do this. All you have to do is quite literally write the parameters as key/value pairs, like shown above. What it captures is what molecule it is, where the data came from, and what each parameter value is.</p>
+        <h3>Pyridazine</h3>
+        <p>This molecule takes it to the other side of things, as an asymmetric top with many parameters. Grabbing the data from Esselman <i>et al.</i>:</p>
+        <div align=center>
+          <figure>
+            <img src="assets/esselman_example.png">
+            <figcaption>Search it in the same way as I googled above for HC5N.</figcaption>
+          </figure>
+        </div>
+        <p>The same treatment is given and formatted like this:</p>
+        <pre>
+        # pyridazine.yml
+        A: 6242.95041
+        B: 5961.09410
+        C: 3048.71363
+        Delta_J: 0.75676e-3
+        Delta_JK: -0.13558e-3
+        Delta_K: 0.82976e-3
+        del_J: 0.315715e-3
+        del_K: 0.68234e-3
+        Phi_J: 0.000233e-6
+        ...
+        Phi_K: 0.002081e-6
+        name: "pyridazine"
+        formula: "C4H4N2"
+        smiles: "C1=CC=NN=C1"
+        </pre>
+        <p>I left out the in betweens and the DOI because I can't be stuffed. The last three values are not actually Hamiltonian parameters, but the inertial defect, asymmetry parameter, and RMS respectively.</p>
       </section>
       <section>
         <h1>Frequently asked questions</h1>
@@ -171,6 +199,12 @@
         <h2>Do I need hyperfine structure?</h2>
         <p>The short answer is yes. We want everything to be as systematic and future proof as possible.</p>
         <p>Depending on the atom and how its bonded, you should generally consider it. The CN molecules that are typical to TMC-1 have their hyperfine structure collapse as you go to higher J values, so that it becomes unresolved at higher frequencies. The splitting is also proportional to the magnitude of the hyperfine coupling term, and decreases from its atomic value with more and more bonding partners. For example, the quadrupole term ordering would be N >> CN >> NH >> -CNH, and therefore as you go along that line the hyperfine becomes less easily resolved and "important" for the spectroscopy.</p>
+        <h2>How do I find the SMILES code?</h2>
+        <p>Generally, searching the molecule name on PubChem and/or ChemSpider will find you something. However, not all molecules are known, and might not have publically available SMILES codes&mdash;typically true for radicals or really transient molecules. Ask Kelvin if you can't find it.</p>
+        <h2>Which SMILES should I use?</h2>
+        <p>Canonical SMILES&mdash;it is as unique as you can get.</p>
+        <h2>Do you care about uncertainty</h2>
+        <p>For GOTHAM, no. On a personal level, very much so.</p>
       </section>
     </main>
 </div>
