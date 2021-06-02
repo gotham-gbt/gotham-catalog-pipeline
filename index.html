@@ -89,14 +89,88 @@
           <li>Identifiable</li>
         </ul>
         <p>What doesn't help is sending a catalog simulated at a temperature you don't know, without the spectroscopic parameters and dipole moment information, or where the data came from.</p>
-        <p>To help clarify what we want, we'll give three examples of the typical workflow someone might do to find and organize spectroscopic information.</p>
+        <p>To help clarify what we want, we'll give three examples of the typical workflow someone might do to think about, find, and organize spectroscopic information.</p>
+        <p><b>HC<sub>5</sub>N</b></p>
+        <p>Let's say we wanted to look for HC5N. It's a linear molecule with nitrogen and so we expect one rotational constant, B, maybe some centrifugal distortion terms, and a quadrupole term because of the nitrogen.</p>
+        <div align=center>
+          <p>The quickest way is to look at CDMS' entry for a molecule:</p>
+          <iframe src="https://cdms.astro.uni-koeln.de/cgi-bin/cdmsinfo?file=e075503.cat" style="width: 70vw; height: 500px"></iframe>
+          <p>The right hand table has some of the terms we want, the principal rotational constants A, B, C, but not all (e.g. the quadrupole terms). Now we have to dig!</p>
+        </div>
+        <p>From there, we can look at the primary sources of data, which are given as references. Generally, take the <b>the most recent</b> paper as your source.</p>
+        <p>Let's assume, however, that we didn't have CDMS to guide us&mdash;what do we do instead? This is what I usually do:</p>
+        <div align=center>
+          <iframe src="https://googlethatforyou.com?q=HC5N%20pure%20rotational%20spectrum" style="width: 70vw; height: 500px"></iframe>
+        </div>
+        <p>You then systematically go through these papers, and generally speaking look for a table that looks vaguely like this:</p>
+        <div align=center>
+          <figure>
+            <img src="assets/hc5n_bizzocchi.png">
+            <figcaption>From <a href="https://doi.org/10.1016/j.jms.2004.02.019">this paper</a>.</figcaption>
+          </figure>
+        </div>
+        <p>Aside from the nitrogen quadrupole term, we have most of what we need. To get it into a machine readable, consistent format, we use the "Yet Another Markup Language" (YAML) file format, which looks something like this:</p>
+        <pre>
+        # HC5N.yml
+        B: 1331.332687
+        D: 30.1090e-6
+        H: 1.635e-12
+        doi: "10.1016/j.jms.2004.02.019"
+        u_a: 4.33
+        </pre>
+        <p>The point here is to not need to think about how to write this with SPCAT&mdash;the sewers has functionality to do this.</p>
       </section>
       <section>
         <h1>Frequently asked questions</h1>
         <hr>
         <h2>I have XYZ parameters in this paper, how do I code it up?</h2>
         <p>If it looks complicated, it probably is&mdash;ask for help from one of the resident spectroscopists, like Bryan or Kelvin but probably Bryan.</p>
-        <p>In the near term, for simplicity's sake overly complicated Hamiltonians are not going to be captured in the scope of this hack-a-thon. This is especially true if you see cosine terms and whatnot (i.e. large amplitude motions in the table, but feel free to ask if unsure.</p>
+        <p>In the near term, for simplicity's sake overly complicated Hamiltonians are not going to be captured in the scope of this hack-a-thon. This is especially true if you see cosine terms and whatnot (i.e. large amplitude motions) in the table, but feel free to ask if unsure.</p>
+        <h2>What do XYZ parameters mean?</h2>
+        <p>Here's a short list of the terms you are going to look for:</p>
+        <table class="is-striped">
+          <caption>Common parameters for rotational spectroscopy</caption>
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Description</th>
+              <th>Molecule types</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$A,B,C$</td>
+              <td>Principal rotational constants; axes correspond to the most (a) and least (c) mass respectively.</td>
+              <td>Linear molecules only have B, symmetric tops have B and C, and asymmetric tops have A, B, C. Some times asymmetric tops only have B and C.</td>
+            </tr>
+            <tr>
+              <td>$D_J, D_{JK}, D_K, d_1, d_2$</td>
+              <td>S-reduced, quartic centrifugal distortion constants</td>
+              <td>Linear molecules will only have D_J</td>
+            </tr>
+            <tr>
+              <td>$\Delta_J, \Delta_{JK}, \Delta_K, \delta_j, \delta_k$</td>
+              <td>A-reduced, quartic centrifugal distortion constants</td>
+              <td>Read notes for above</td>
+            </tr>
+            <tr>
+              <td>$H_{JK}, \phi_J$ and so on</td>
+              <td>Sextic rotational constants, probably not that common</td>
+              <td>Asymmetric tops</td>
+            </tr>
+            <tr>
+              <td>$eQq, \chi_{aa}$</td>
+              <td>Nuclear quadrupole terms; former is for linear molecules, latter is the tensor element for the a-axis which is most common.</td>
+              <td>Molecules with atoms that have non-integer nuclear spin like nitrogen, chlorine</td>
+            </tr>
+            <tr>
+              <td>$\gamma, \epsilon$</td>
+              <td>Electron spin-rotation interaction terms; former is for linear molecules, latter will have the projection axis as subscripts</td>
+              <td>This is about as complicated as we'd like to get, which are for radicals.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>If there are terms not in this list, ask a spectroscopist but probably not worth the trouble. Consult <a href="https://list.iupac.org/publications/pac/1994/pdf/6603x0571.pdf">this PDF</a> for some of the more esoteric symbols. If it has cosine and whatnot, it's safe to ignore.</p>
       </section>
     </main>
 </div>
@@ -104,7 +178,21 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="js/modules.js"></script>
 <script src="js/app.js"></script>
+<script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$']]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script>mermaid.initialize({startOnLoad:true});</script>
 <script>
 // on DOM ready
