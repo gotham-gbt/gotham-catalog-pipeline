@@ -96,7 +96,7 @@
             <figcaption>From <a href="https://doi.org/10.1016/j.jms.2004.02.019">this paper</a>.</figcaption>
           </figure>
         </div>
-        <p>Aside from the nitrogen quadrupole term, we have most of what we need. To get it into a machine readable, consistent format, we use the "Yet Another Markup Language" (YAML) file format, which looks something like this:</p>
+        <p>Aside from the nitrogen quadrupole term, we have most of what we need. To get it into a machine readable, consistent format, we use the "Yet Another Markup Language" (YAML) file format, which looks something like this, where all values are in MHz and Debye:</p>
         <pre>
         # HC5N.yml
         B: 1331.332687
@@ -107,6 +107,8 @@
         smiles: "C#CC#CC#N"
         name: "HC5N"
         formula: "HC5N"
+        notes: "No hyperfine structure."
+        author: "KLKL"
         </pre>
         <p>The point here is to not need to think about how to write this with SPCAT&mdash;the <code>sewers</code> has functionality to do this. All you have to do is quite literally write the parameters as key/value pairs, like shown above. What it captures is what molecule it is, where the data came from, and what each parameter value is.</p>
         <h3>Pyridazine</h3>
@@ -134,6 +136,8 @@
         name: "pyridazine"
         formula: "C4H4N2"
         smiles: "C1=CC=NN=C1"
+        notes: "No hyperfine structure"
+        author: "IRC"
         </pre>
         <p>I left out the in betweens and the DOI because I can't be stuffed. The last three values are not actually Hamiltonian parameters, but the inertial defect, asymmetry parameter, and RMS respectively.</p>
       </section>
@@ -143,6 +147,18 @@
         <h2>I have XYZ parameters in this paper, how do I code it up?</h2>
         <p>If it looks complicated, it probably is&mdash;ask for help from one of the resident spectroscopists, like Bryan or Kelvin but probably Bryan.</p>
         <p>In the near term, for simplicity's sake overly complicated Hamiltonians are not going to be captured in the scope of this hack-a-thon. This is especially true if you see cosine terms and whatnot (i.e. large amplitude motions) in the table, but feel free to ask if unsure.</p>
+        <p>In terms of writing them down in the YAML format, write the parameter names as you would in LaTeX.</p>
+        <p>In terms of the structure of a YAML format for us, all key/values are optional, and so if your molecule is linear don't bother putting down A and C. For the remaining fields, be as consistent as you can:</p>
+        <pre>
+        notes: "Write anything noteworthy about the molecule/paper here"
+        doi: "Write the DOI for the paper here"
+        smiles: "Really helps nail down the molecule without a name"
+        name: "If you really want to, add a common name"
+        formula: "Write the molecular (not structural) formula"
+        author: "Initials of the person who wrote this"
+        ...
+        </pre>
+        <p>where ... are just all the parameters relevant to the molecule.</p>
         <h2>What do XYZ parameters mean?</h2>
         <p>Here's a short list of the terms you are going to look for:</p>
         <table class="is-striped">
@@ -168,7 +184,7 @@
             <tr>
               <td>$\Delta_J, \Delta_{JK}, \Delta_K, \delta_j, \delta_k$</td>
               <td>A-reduced, quartic centrifugal distortion constants</td>
-              <td>Read notes for above</td>
+              <td>Read notes for above. For the YAML file, write them as you would write them in LaTeX.</td>
             </tr>
             <tr>
               <td>$H_{JK}, \phi_J$ and so on</td>
@@ -201,7 +217,10 @@
         <p>Generally, searching the molecule name on PubChem and/or ChemSpider will find you something. However, not all molecules are known, and might not have publically available SMILES codes&mdash;typically true for radicals or really transient molecules. Ask Kelvin if you can't find it.</p>
         <h2>Which SMILES should I use?</h2>
         <p>Canonical SMILES&mdash;it is as unique as you can get.</p>
-        <h2>Do you care about uncertainty</h2>
+        <h2>Which paper should I get parameters from?</h2>
+        <p>This is a lot more nuanced, and generally comes from experience. Newer is generally better, as it usually folds in data collected over many years. That said, there is a hierarchy of experimental techniques in terms of resolution&mdash;maybe not necessarily something you'll pick up over night, but as you're looking into papers pay attention to the resolution and frequency range of the data source, and match it to the frequency range of your data. For GOTHAM, Fourier transform cavity spectroscopy will yield the best in class data, providing the highest resolution and accuracy typically attainable, which will typically be in papers after the '90s.</p>
+        <p>Another aspect that is relevant to us is hyperfine structure. At these low frequencies and low J values we will typically resolve them, and measurements in the mm-wave will generally not include them because they are unresolved. This may be a situation where parameters from an older, high resolution/low frequency paper are more relevant than a newer high frequency paper.</p>
+        <h2>Do you care about uncertainty?</h2>
         <p>For GOTHAM, no. On a personal level, very much so.</p>
       </section>
     </main>
