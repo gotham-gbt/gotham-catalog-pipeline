@@ -111,6 +111,7 @@
         author: "KLKL"
         </pre>
         <p>The point here is to not need to think about how to write this with SPCAT&mdash;the <code>sewers</code> has functionality to do this. All you have to do is quite literally write the parameters as key/value pairs, like shown above. What it captures is what molecule it is, where the data came from, and what each parameter value is.</p>
+        <p>A note regarding dipole moments: typically these are the hardest things to find because dipole moments are hard to experimentally measure. The task then becomes finding a theory paper that calculates these, and determining which level of theory to trust. The general rule of thumb is the more letters it contains the better. If you see CCSD(T), take that value.</p>
         <h3>Pyridazine</h3>
         <p>This molecule takes it to the other side of things, as an asymmetric top with many parameters. Grabbing the data from Esselman <i>et al.</i>:</p>
         <div align=center>
@@ -222,6 +223,13 @@
         <p>Another aspect that is relevant to us is hyperfine structure. At these low frequencies and low J values we will typically resolve them, and measurements in the mm-wave will generally not include them because they are unresolved. This may be a situation where parameters from an older, high resolution/low frequency paper are more relevant than a newer high frequency paper.</p>
         <h2>Do you care about uncertainty?</h2>
         <p>For GOTHAM, no. On a personal level, very much so.</p>
+        <h2>Which level of theory for theoretical data?</h2>
+        <p>Usually a pretty nuanced thing, and you can look up <a href="https://pubs.acs.org/doi/abs/10.1021/acs.jpca.9b09982">this paper</a> to see if the method you're looking at is listed.</p>
+        <p>Generally speaking, the method (the thing before the slash / ) is pretty invariant, and to get dipole moments with low uncertainty you just need large basis sets (the thing after the slash). With a cc-pVQZ basis, the uncertainty will be on the order of +/-0.3 Debye.</p>
+        <p>In terms of how to judge one basis over another, basis sets are designed based off angular momenta $\zeta$, with larger being better:</p>
+        <p>Dunning basis: cc-pVXZ, X = D, T, Q, 5, 6</p>
+        <p>Pople basis: X-YZG, 3-21G < 6-31G < 6-311G</p>
+        <p>With Pople basis sets, dipole moments are useless without polarization functions&mdash;if it doesn't have at least a (d) at the end, their uncertainties will be wild. These basis sets can also be larger with diffuse functions added to them, which are denoted with +'s.</p>
       </section>
     </main>
 </div>
