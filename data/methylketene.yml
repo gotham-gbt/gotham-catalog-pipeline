@@ -1,0 +1,19 @@
+# methylketene.yml
+A: 38445.435
+B: 4507.167
+C: 4137.882
+doi: "10.1051/0004-6361/201833267"
+u_a: 1.65
+u_b: 0.33
+Delta_J: 2.618e-3
+Delta_JK: 1.860255e-1
+Delta_K: -9.196e-2
+del_J: 0.533e-3
+del_K: 5.577e-3
+Phi_J: 0.21428e-7
+Phi_K: 0.8161e-3
+name: "methylketene"
+formula: "C3H4O"
+smiles: "CC=C=O"
+notes: "internal rotation; used RAM fitting"
+author: "AR"
