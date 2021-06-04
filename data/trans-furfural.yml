@@ -1,0 +1,25 @@
+# trans-furfural.yml
+A: 8191.77386
+B: 2045.929569
+C: 1637.183876
+Delta_J: 0.1361872e-3
+Delta_JK: 0.706617e-3
+Delta_K: 1.7835e-3
+del_J: 0.0314688e-3
+del_K: 0.82192e-3
+H_J: 0.0000175e-6
+H_JK: 0.000657e-6
+H_KJ: -0.00509e-6
+h_J: 0.00000868e-6
+h_JK: 0.000403e-6
+h_K: 0.01335e-6
+L_J: 0.000000191e-9
+L_KKJ: -0.0001018e-9
+u_a: 3.20
+u_b: 0.40
+name: "trans-furfural"
+formula: "C5H4O2"
+notes: "trans conformer"
+smiles: "C1=COC(=C1)C=O"
+author: "PBC"
+doi: ["10.1016/j.jms.2006.09.003","10.1515/zna-1965-1015"]

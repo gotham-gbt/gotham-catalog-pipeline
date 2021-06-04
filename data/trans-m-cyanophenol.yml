@@ -1,0 +1,21 @@
+# trans-m-cyanophenol
+A: 3403.1196
+B: 1208.4903
+C:  891.7241
+chi_aa: -3.700
+chi_bb: 1.72
+chi_cc: 1.98
+Delta_J: 0.040e-3
+Delta_JK: 0.02e-3
+Delta_K: 1.13e-3
+del_J: 0.01426e-3
+del_K: 0.22e-3
+u_a: -5.6
+u_b: -2.7
+name: "trans-m-cyanophenol"
+formula: "C7H5NO"
+smiles: "C1=CC(=CC(=C1)O)C#N"
+notes: "trans conformer; dipoles at MP2/6-311++G(d,p)"
+doi: "10.1039/c001705a"
+author: "PBC"
+

@@ -1,0 +1,27 @@
+# 3cyanopyridine.yml
+A: 5823.05832
+B: 1571.351896
+C: 1237.169980
+Delta_J: 0.0464884e-3
+Delta_JK: 1.063742e-3
+Delta_K: 0.23366e-3
+del_J: 0.0110955e-3
+del_K: 0.673712e-3
+Phi_J: 0.00000360e-6
+Phi_JK: 0.0018504e-6
+Phi_KJ:-0.009199e-6
+Phi_K: 0.007488e-6
+phi_J: 0.000001213e-6
+phi_JK: 0.0009081e-6
+phi_K: 0.009045e-6
+L_JJK: -0.00242e-12
+L_JK: 0.01754e-12
+L_KKJ: -0.1407e-12
+u_a: 3.13
+u_b: 1.90
+name: "3-cyanopyridine"
+formula: "C6H4N2"
+smiles: "C1=CC(=CN=C1)C#N"
+doi: ["10.1016/j.jms.2020.111373", "10.1016/0022-2852(75)90103-4"]
+notes: "A-red, Ir rep. No hfs. Dipole from ref 2."
+author: "TJB"

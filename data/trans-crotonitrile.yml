@@ -1,0 +1,17 @@
+#trans-crotonitrile.yml
+A: 38053.406
+B: 2297.06890
+C: 2195.18358
+Delta_J: 0.283422e-3
+Delta_JK: -17.3321e-3
+delta_J: 0.029727e-3
+delta_K: -1.124e-3
+Phi_JK: 0.039665e-6
+Phi_KJ: 1.8400e-6
+mu_a: 4.35
+doi: "10.1006/jmsp.1995.1198"
+name: "trans-crotononitrile"
+formula: "CH3CHCHCN"
+smiles: "C/C=C/C#N"
+notes: ""
+author: "AMB"

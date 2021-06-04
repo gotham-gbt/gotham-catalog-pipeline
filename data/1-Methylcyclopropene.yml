@@ -1,0 +1,13 @@
+#1-Methylcyclopropene.yml
+A: 20556.191
+B: 6356.981
+C: 5176.421
+kappa: -0.846479
+mu_a: 0.818
+mu_b: 0.19
+doi: "10.1021/ja01040a010"
+name: "1-Methylcyclopropene"
+formula: "CH3C3H3"
+smiles: "CC1=CC1"
+notes: "Methyl rotor neglected in paper"
+author: "AMB"

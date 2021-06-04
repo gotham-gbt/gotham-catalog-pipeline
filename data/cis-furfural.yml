@@ -1,0 +1,23 @@
+# trans-furfural.yml
+A: 8143.738729
+B: 2098.724250
+C: 1668.872904
+Delta_J: 0.1726593e-3
+Delta_JK: 0.499948e-3
+Delta_K: 1.81402e-3
+del_J: 0.0403044e-3
+del_K: 0.80893e-3
+H_J: 0.00002719e-6
+H_JK: -0.0003230e-6
+H_KJ: -0.002259e-6
+h_J: 0.00001091e-6
+h_JK: 0.000139e-6
+u_a: 3.41
+u_b: 1.93
+name: "cis-furfural"
+formula: "C5H4O2"
+notes: "cis conformer"
+smiles: "C1=COC(=C1)C=O"
+author: "PBC"
+doi: ["10.1016/j.jms.2006.09.003","10.1515/zna-1965-1015"]
+

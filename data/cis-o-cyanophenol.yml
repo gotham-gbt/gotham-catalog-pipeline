@@ -1,0 +1,21 @@
+# cis-o-cyanophenol
+A: 3053.758
+B: 1511.2760
+C: 1010.7989
+chi_aa: -4.213
+chi_bb: 2.53
+chi_cc: 1.68
+Delta_J: 0.038e-3
+Delta_JK: 0.624e-3
+Delta_K: -0.1e-3
+del_J: 0.0108e-3
+del_K: 0.28e-3
+u_a: -4.0
+u_b: 0.5
+name: "cis-o-cyanophenol"
+formula: "C7H5NO"
+smiles: "C1=CC=C(C(=C1)C#N)O"
+notes: "cis conformer; dipoles at MP2/6-311++G(d,p)"
+doi: "10.1039/c001705a"
+author: "PBC"
+

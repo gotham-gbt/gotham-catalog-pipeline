@@ -1,0 +1,28 @@
+# 2cyanoethanol.yml
+A: 10726.45630
+B: 3432.310915
+C: 2815.606794
+Delta_J: -4.878082e-3
+Delta_JK: 29.02150e-3
+Delta_K: -80.2471e-3
+del_J: -1.4945691e-3
+del_K: -10.56645e-3
+Phi_J: 0.0147946e-6
+Phi_JK: 0.070757e-6
+Phi_KJ: -1.09796e-6
+Phi_K: 2.9708e-6
+phi_J: 0.0067636e-6
+phi_JK: -0.017433e-6
+phi_K: 1.46446e-6
+L_JK: -0.0007870e-9
+L_JJK: -0.011141e-9
+L_KJ: 0.07166e-9 
+L_K: -0.1445e-9
+u_a: 1.844
+u_b: 2.544
+name: "2-cyanoethanol"
+formula: "C3H5ON"
+smiles: "C(CO)C#N"
+doi: ["10.1016/j.jms.2010.06.002", "10.3891/acta.chem.scand.39a-0015"]
+notes: "No hfs. Gauche conformer. One anti conformer also measured in Ref 1. Dipole from Ref 2."
+author: "TJB"

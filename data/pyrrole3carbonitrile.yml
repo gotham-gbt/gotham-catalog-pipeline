@@ -1,0 +1,16 @@
+# pyrrole3carbonitrile.yml
+A: 9014.80
+B: 1938.879
+C: 1595.248
+Delta_J: 0.17e-3
+Delta_JK: 2.71e-3
+del_J: -0.006e-3
+del_K: 2.52e-3
+u_a: 2.80
+u_b: 1.34
+name: "pyrrole-3-carbonitrile"
+formula: "C5H4N2"
+smiles: "C1=CNC=C1C#N"
+doi: "10.1016/0022-2852(91)90181-9"
+notes: "No N hfs. Stark modulation spectroscopy 8-40 GHz. Dipole moments estimated from pyrrole and benzonitrile."
+author: "TJB"

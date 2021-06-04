@@ -1,0 +1,18 @@
+#ethynylphosphine.yml
+A: 130345.248
+B: 5113.92758
+C: 5090.19602
+D_J: 1.35131e-3
+D_JK: 64.943e-3
+D_K: 2.4525
+d_1: -0.007157e-3
+d_2: -0.0013191e-3
+H_JJK: 0.081e-6
+H_J: -0.00165e-6
+mu_a: 0.155
+mu_c: 0.555
+name: "ethynylphosphine"
+formula: "C2H3P"
+smiles: "C#CP"
+doi:"https://doi.org/10.1021/ic00271a008"
+author: "MAS"

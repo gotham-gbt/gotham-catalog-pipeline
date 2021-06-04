@@ -1,0 +1,13 @@
+# 2-furonitrile
+A: 9220.106
+B: 2029.262
+C: 1662.640
+chi_bb+chi_cc: 4.26
+chi_bb-chi_cc: 0.96
+name: "2-furonitrile"
+formula: "C5H3NO"
+notes:"hyperfine included, but no quartic CD; probably needs new lab work"
+smiles: "N#Cc1ccco1"
+doi: "10.1515/zna-1976-0627"
+author: "PBC"
+

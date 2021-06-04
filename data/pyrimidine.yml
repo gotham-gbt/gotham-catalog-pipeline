@@ -1,0 +1,24 @@
+# pyrimidine.yml
+A: 6276.827750
+B: 6067.165761
+C: 3084.44922
+D_J: 1.472131e-3
+D_JK: -2.452567e-3
+D_K: 1.104972e-3
+d_1: 0.011730e-3
+d_2: 0.0219042e-3
+H_J: 0.000661e-6
+H_JK: -0.0027108e-6
+H_KJ: 0.0033334e-6
+H_K: -0.0013193e-6
+Chi_aa: -3.1004
+Chi_bb: -0.2554
+Chi_cc: 3.5584
+Chi_ab: 2.76
+u_b: 2.334
+name: "pyrimidine"
+formula: "C4H4N2"
+smiles: "C1=CN=CN=C1"
+doi: ["10.1063/1.5144914","10.1006/jmsp.1999.7830","10.1016/0022-2852(70)90185-2"]
+notes: "S-red, IIIr rep. Hfs from Ref 2. Dipole from Ref 3."
+author: "TJB"

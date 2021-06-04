@@ -1,0 +1,34 @@
+# isopropylcyanide.yml
+A: 7940.877174
+B: 3968.087775
+C: 2901.053223
+D_J: 610.2684e-6
+D_JK: 12.17725e-3
+D_K: -5.23242e-3
+d_1: -244.0908e-6
+d_2: -189.2889e-6
+H_J: -584.83e-12
+H_JK: 38.267e-9
+H_KJ: 10.968e-9
+H_K: -37.163e-9
+h_1: 68.73e-12
+h_2: 884.23e-12
+h_3: 322.39e-12
+L_JJK: -79.7e-15
+L_KKJ: -242e-15
+l_3: -1.658e-15
+l_4: -0.607e-15
+Chi_aa: -3.93838
+Chi_bb: 2.11117
+Chi_cc: 1.82721
+C_aa: 0.162e-3
+C_bb: 0.834e-3
+C_cc: 0.583e-3
+u_a: 4.0219
+u_c: 0.6192
+name: "iso-propyl cyanide"
+formula: "C4H7N"
+smiles: "CC(C)C#N"
+doi: "10.1016/j.jms.2011.02.011"
+notes: "S-red, prob Ir rep."
+author: "TJB"

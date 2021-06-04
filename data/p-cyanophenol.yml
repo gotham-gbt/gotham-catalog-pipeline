@@ -1,0 +1,21 @@
+# p-cyanophenol
+A: 5612.96
+B: 990.4283
+C: 841.9363
+chi_aa: -4.17
+chi_bb: 2.36
+chi_cc: 1.81
+Delta_J: 0.020e-3
+Delta_JK: 0.23e-3
+Delta_K: 9
+del_J: 0.005e-3
+del_K: 0.4e-3
+u_a: -5.0
+u_b: -1.0
+name: "p-cyanophenol"
+formula: "C7H5NO"
+smiles: "C1=CC(=CC=C1C#N)O"
+notes: "b-type transitions have OH internal rotation splitting, see supplemental data; dipoles at MP2/6-311++G(d,p)"
+doi: "10.1039/c001705a"
+author: "PBC"
+

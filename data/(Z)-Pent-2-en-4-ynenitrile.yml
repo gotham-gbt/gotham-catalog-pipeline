@@ -1,0 +1,18 @@
+#(Z)-Pent-2-en-4-ynenitrile.yml
+A: 7098.1999
+B: 2682.5976
+C: 1943.5372
+Delta_J: 3.426e-3
+Delta_JK: -22.02e-3
+Delta_K: 45.23e-3
+del_J: 1.28e-3
+del_K: 3.50e-3
+chi_aa: 0.248
+chi_bb-chi_cc: -4.599
+mu_a: 2.382
+mu_b: 2.600
+name: "(Z)-Pent-2-en-4-ynenitrile"
+formula: "C5H3N"
+smiles: "C#C/C=C\C#N"
+doi:"https://doi.org/10.1021/ja011195t"
+author: "MAS"

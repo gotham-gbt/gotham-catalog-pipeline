@@ -1,0 +1,13 @@
+name: "4,4'-dimethylaminobenzonitrile"
+formula": "C9H10N2"
+chi_aa_1: 2.54
+chi_bb_1: 2.80
+chi_cc_1: -5.33
+chi_aa_1: -4.11
+chi_bb_1: 2.40
+chi_cc_1: 1.71
+A: 3469.25
+B:  578.5834
+C: 499.6121
+smiles: "CN(C)C1=CC=C(C=C1)C#N"
+doi: "10.1021/jp111075r"

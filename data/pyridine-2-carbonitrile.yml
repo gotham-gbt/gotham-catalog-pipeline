@@ -1,0 +1,28 @@
+# pyridine-2-carbonitrile
+A: 5837.00079
+B: 1598.233352
+C: 1254.457198
+u_a: 5.47
+u_b: 1.87
+Delta_J: 0.0473609e-3
+Delta_JK: 0.986440e-3
+Delta_K: 0.30757e-3
+del_J: 0.0114808e-3
+del_K: 0.638829e-3
+Phi_J: 0.00000423e-6
+Phi_JK: 0.0016934e-6
+Phi_KJ: -0.008417e-6
+Phi_K: 0.007312e-6
+phi_J: 0.000000964e-6
+phi_JK: 0.0008007e-6
+phi_K: 0.008370e-6
+L_J: 0.0000000529e-9
+L_JJK: -0.000002442e-9
+L_JK: -0.000146e-9
+l_K: -0.000310e-9
+doi: ["10.15278/isms.2019.RI08", "10.1016/0022-2852(75)90103-4"]
+name: "pyridine-2-carbonitrile"
+formula: "C6H4N2"
+notes: "no hyperfine; spectroscopic constants from (unpublished?) work from the Wisconsin group -- I took data from an ISMS talk."
+smiles: "N#Cc1ccccn1"
+author: "PBC"

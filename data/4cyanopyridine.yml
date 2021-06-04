@@ -1,0 +1,30 @@
+# 4cyanopyridine.yml
+A: 6000.67028
+B: 1541.180078
+C: 1225.999666
+Delta_J: 0.0469997e-3
+Delta_JK: 0.977719e-3
+Delta_K: 0.3319e-3
+del_J: 0.01103714e-3 
+del_K: 0.64553e-3
+Phi_J: 0.00000295e-6
+Phi_JK: 0.001718e-6
+Phi_KJ: -0.009245e-6
+Phi_K: 0.00708e-6
+phi_J: 0.00000116e-6
+phi_JK: 0.0007997e-6
+phi_K: 0.00850e-6
+L_JJK: -0.00000324e-12
+L_JK: 0.00001391e-12
+L_KKJ: -0.0000991e-12
+u_a: 1.96
+Chi_aa_1: -5.0316
+Chi_bb_1: 1.39992
+Chi_aa_2: -4.3321
+Chi_bb_2: 2.21243
+name: "4-cyanopyridine"
+formula: "C6H4N2"
+smiles: "C1=CN=CC=C1C#N"
+doi: ["10.1016/j.jms.2020.111274","10.1080/00268976.2018.1467053", "10.1016/0022-2852(75)90103-4"]
+notes: "N hfs data from Ref 2. Dipole from Ref 3."
+author: "TJB"

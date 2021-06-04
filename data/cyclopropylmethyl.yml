@@ -1,0 +1,11 @@
+#cyclopropylmethyl.yml
+A: 19417.6
+B: 6877.11
+C: 5455.12
+mu_a: 0.402
+doi: "10.1021/ja00709a006"
+name: "cyclopropylmethyl"
+formula: "CH2C3H4"
+smiles: "C=C1CC1"
+notes: ""
+author: "AMB"

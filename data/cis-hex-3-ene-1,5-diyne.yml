@@ -1,0 +1,15 @@
+#cis-hex-3-ene-1,5-diyne.yml
+A: 6955.2978
+B: 2621.5146
+C: 1900.7330
+D_J: 2.968e-3
+D_JK: -19.80e-3
+D_K: 43.3e-3
+d_1: -1.168e-3
+d_2: -0.0645e-3
+mu_b: 0.18
+name: "cis-Hex-3-ene-1,5-diyne"
+formula: "C4H2N2"
+smiles: "C#CC=CC#C"
+doi:"https://doi.org/10.1021/ja9934908"
+author: "MAS"

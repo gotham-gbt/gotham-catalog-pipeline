@@ -1,0 +1,18 @@
+# 2furanyloxy.yml
+A: 8897.732
+B: 4019.946
+C: 2770.321
+Delta_J: 0.345e-3
+Delta_JK: 1.232e-3
+Delta_K: 2.81e-3
+epsilon_aa: -38.340
+epsilon_bb: -14.786
+epsilon_cc: 1.298
+u_a: 3.98
+u_b: 1.12
+name: "2-furanyloxy radical"
+formula: "C4H3O2"
+smiles: "C1=COC(=C1)[O]"
+doi: "10.1021/acs.jpca.8b05102"
+notes: "epsilon constants are spin-rotation. Dipole from quantum chemistry"
+author: "TJB"

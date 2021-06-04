@@ -1,0 +1,16 @@
+# pyrrole2carbonitrile.yml
+A: 8946.6297
+B: 1988.5936
+C: 1626.5440
+Delta_J: 0.0690e-3
+Delta_JK: 2.812e-3
+del_J: 0.0169e-3
+del_K: 1.26e-3
+u_a: 4.56 
+u_b: 1.334
+name: "pyrrole-2-carbonitrile"
+formula: "C5H4N2"
+smiles: "C1=CNC(=C1)C#N"
+doi: ["10.1021/j100451a005", "10.1016/0022-2852(91)90181-9"]
+notes: "No N hfs. Stark modulation spectroscopy 26-75 GHz. Dipole moments from Stark msmts in Ref 2."
+author: "TJB"
