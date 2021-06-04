@@ -1,22 +1,22 @@
-        # quinazoline.yml
-        A: 3229.85422
-        B: 1276.2106327
-        C: 914.9869715
-        Delta_J: 0.016803e-03
-        Delta_JK: 0.06405e-03
-        Delta_K: 0.1569e-03
-        d_1: -5.7528e-06
-        d_2: -1.3307e-06
-        H_J: 0.206e-09
-        Chi_aa_1: 1.4547
-        Chi_aa_2: -3.59205 
-        Chi_bb_1 - Chi_cc_1: -7.5826
-        Chi_bb_2 - Chi_cc_2: -2.8914
-        u_a: 2.89
-        u_b: 1.24
-        name: "quinazoline"
-        formula: "C8H6N2"
-        smiles: "C1=CC=C2C(=C1)C=NC=N2"
-        doi: "doi.org/10.1063/1.3580770"
-        notes: "1 and 2 hyperfine refers to the two unique nitrogens, dipoles at B3LYP"
-        author: "IRC"
+# File modified after homogenizing keys# File modified after homogenizing keys        # quinazoline.yml
+A: 3229.85422
+B: 1276.2106327
+C: 914.9869715
+Delta_J: 0.016803e-03
+Delta_JK: 0.06405e-03
+Delta_K: 0.1569e-03
+d_1: -5.7528e-06
+d_2: -1.3307e-06
+H_J: 0.206e-09
+u_a: 2.89
+u_b: 1.24
+name: quinazoline
+formula: C8H6N2
+smiles: C1=CC=C2C(=C1)C=NC=N2
+doi: doi.org/10.1063/1.3580770
+notes: 1 and 2 hyperfine refers to the two unique nitrogens, dipoles at B3LYP
+author: IRC
+chi_aa_1: 1.4547
+chi_aa_2: -3.59205
+chi_bb_1-chi_cc_1: -7.5826
+chi_bb_2-chi_cc_2: -2.8914

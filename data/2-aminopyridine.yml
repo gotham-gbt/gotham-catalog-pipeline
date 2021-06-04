@@ -1,18 +1,18 @@
-        # 2-aminopyridine.yml
-        A: 5780.374
-        B: 2733.5017
-        C: 1857.6768
-        Chi_aa_1: 2.3859
-        Chi_bb_1: 1.814
-        Chi_cc_1: -4.120
-        Chi_aa_2: -0.063
-        Chi_bb_2: -2.291
-        Chi_cc_2: 2.355   
-        u_a: 0.166
-        u_b: 0.86
-        name: "2-aminopyridine"
-        formula: "C5H6N2"
-        smiles: "C1=CC=NC(=C1)N"
-        doi: "doi.org/10.1016/j.jms.2021.111457"
-        notes: "two nitrogens 1 refers to amino group, 2 refers to ring, dipoles from doi.org/10.1016/0022-2852(72)90087-2"
-        author: "IRC"
+# File modified after homogenizing keys        # 2-aminopyridine.yml
+A: 5780.374
+B: 2733.5017
+C: 1857.6768
+u_a: 0.166
+u_b: 0.86
+name: 2-aminopyridine
+formula: C5H6N2
+smiles: C1=CC=NC(=C1)N
+doi: doi.org/10.1016/j.jms.2021.111457
+notes: two nitrogens 1 refers to amino group, 2 refers to ring, dipoles from doi.org/10.1016/0022-2852(72)90087-2
+author: IRC
+chi_aa_1: 2.3859
+chi_bb_1: 1.814
+chi_cc_1: -4.120
+chi_aa_2: -0.063
+chi_bb_2: -2.291
+chi_cc_2: 2.355

@@ -1,17 +1,17 @@
-#o-tolunitile.yml
+# File modified after homogenizing keys#o-tolunitile.yml
 A: 2891.6469
 B: 1499.8809
 C: 993.52170
 Delta_J: 0.039e-3
-Delta_JK:  0.396e-3
+Delta_JK: 0.396e-3
 Delta_K: 0.38e-3
 delta_J: 0.0116e-3
 delta_K: 0.236e-3
-Chi_aa: -4.094
-Chi_bb-Chi_cc: 0.191
-doi: "10.1080/0026897990948285"
-name: "o-tolunitile"
-formula: "CH3C6H4CN"
-smiles: "CC1=CC=CC=C1C#N"
-notes: ""
-author: "NH"
+doi: 10.1080/0026897990948285
+name: o-tolunitile
+formula: CH3C6H4CN
+smiles: CC1=CC=CC=C1C#N
+notes: ''
+author: NH
+chi_aa: -4.094
+chi_bb-chi_cc: 0.191

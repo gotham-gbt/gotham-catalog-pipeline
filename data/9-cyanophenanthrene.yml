@@ -1,20 +1,20 @@
-        # 9-cyanophenanthrene.yml
-        A: 846.1187056
-        B: 486.3864957
-        C: 308.9367602
-        Delta_J: 2.8533e-06
-        Delta_JK: -4.951e-06
-        Delta_K: 48.275e-06
-        d_1: -1.2279e-06
-        d_2: -0.1477e-06
-        Chi_aa: -1.58097
-        Chi_bb - Chi_cc: -2.2728
-        Chi_ab: -3.53
-        u_a: 3.73
-        u_b: 3.29
-        name: "9-cyanophenanthrene"
-        formula: "C15H9N"
-        smiles: "C1=CC=C2C(=C1)C=C(C3=CC=CC=C23)C#N"
-        doi: "doi:10.1093/mnras/sty557"
-        notes: "Watson S-reduction, dipole at B3LYP/cc-pVTZ"
-        author: "IRC"
+# File modified after homogenizing keys# File modified after homogenizing keys        # 9-cyanophenanthrene.yml
+A: 846.1187056
+B: 486.3864957
+C: 308.9367602
+Delta_J: 2.8533e-06
+Delta_JK: -4.951e-06
+Delta_K: 48.275e-06
+d_1: -1.2279e-06
+d_2: -1.4770e-07
+u_a: 3.73
+u_b: 3.29
+name: 9-cyanophenanthrene
+formula: C15H9N
+smiles: C1=CC=C2C(=C1)C=C(C3=CC=CC=C23)C#N
+doi: doi:10.1093/mnras/sty557
+notes: Watson S-reduction, dipole at B3LYP/cc-pVTZ
+author: IRC
+chi_aa: -1.58097
+chi_ab: -3.53
+chi_bb-chi_cc: -2.2728

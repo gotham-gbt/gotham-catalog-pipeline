@@ -1,4 +1,4 @@
-# phenylisocyanide.yml
+# File modified after homogenizing keys# phenylisocyanide.yml
 A: 5659.3374
 B: 1639.771667
 C: 1271.154548
@@ -9,21 +9,21 @@ del_J: 0.0124650e-3
 del_K: 0.60134e-3
 Phi_J: 0.00000262e-6
 Phi_JK: 0.0018134e-6
-Phi_KJ: -0.009494e-6
+Phi_KJ: -9.494000e-9
 Phi_K: 0.00755e-6
 phi_J: 0.000001206e-6
 phi_JK: 0.0008555e-6
 phi_K: 0.00651e-6
-L_JJK: -0.003943e-12
-L_KKJ: -0.0327e-12
+L_JJK: -3.943000e-15
+L_KKJ: -3.2700e-14
 L_K: 6.38e-12
-Chi_aa: 0.4115
-Chi_bb: -0.3858
-Chi_cc: -0.0257
 u_a: 4.018
-name: "phenyl isocyanide"
-formula: "C6H5CN"
-smiles: "[C-]#[N+]C1=CC=CC=C1"
-doi: ["10.1063/1.5100805","10.1515/zna-1986-1106"]
-notes: "Hfs and dipole from Ref 2."
-author: "TJB"
+name: phenyl isocyanide
+formula: C6H5CN
+smiles: '[C-]#[N+]C1=CC=CC=C1'
+doi: [10.1063/1.5100805, 10.1515/zna-1986-1106]
+notes: Hfs and dipole from Ref 2.
+author: TJB
+chi_aa: 0.4115
+chi_bb: -0.3858
+chi_cc: -0.0257

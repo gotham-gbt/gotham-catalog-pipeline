@@ -1,19 +1,19 @@
-        # 9-cyanoanthracene.yml
-        A: 985.8526447
-        B: 451.2051876
-        C: 309.6126249
-        Delta_J: 0.7119e-06
-        Delta_JK: 33.694e-06
-        Delta_K: -14.193e-06
-        d_1: -0.4625e-06
-        d_2: -0.4802e-06
-        Chi_aa: 2.30453
-        Chi_bb - Chi_cc: -6.07580
-        Chi_ab: 0
-        u_b: 4.64
-        name: "9-cyanoanthracene"
-        formula: "C15H9N"
-        smiles: "C1=CC=C2C(=C1)C=C3C=CC=CC3=C2C#N"
-        doi: "doi:10.1093/mnras/sty557"
-        notes: "Watson S-reduction, dipole at B3LYP/cc-pVTZ"
-        author: "IRC"
+# File modified after homogenizing keys# File modified after homogenizing keys        # 9-cyanoanthracene.yml
+A: 985.8526447
+B: 451.2051876
+C: 309.6126249
+Delta_J: 0.7119e-06
+Delta_JK: 33.694e-06
+Delta_K: -14.193e-06
+d_1: -4.6250e-07
+d_2: -4.8020e-07
+u_b: 4.64
+name: 9-cyanoanthracene
+formula: C15H9N
+smiles: C1=CC=C2C(=C1)C=C3C=CC=CC3=C2C#N
+doi: doi:10.1093/mnras/sty557
+notes: Watson S-reduction, dipole at B3LYP/cc-pVTZ
+author: IRC
+chi_aa: 2.30453
+chi_ab: 0
+chi_bb-chi_cc: -6.07580

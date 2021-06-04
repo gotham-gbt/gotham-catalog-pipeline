@@ -1,4 +1,4 @@
-# 2cyanobutane.yml
+# File modified after homogenizing keys# 2cyanobutane.yml
 A: 4070.369407
 B: 3145.923481
 C: 1919.400332
@@ -25,17 +25,17 @@ l_3: 30.158e-15
 l_4: 4.043e-15
 p_2: -480e-21
 p_4: -43.0e-12
-Chi_aa: 0.29545
-Chi_bb: -2.14468
-Chi_cc: 1.84923
-Chi_ab: 2.642
 C_cc: 0.539e-3
 u_a: 2.357
 u_b: 3.336
 u_c: 0.619
-name: "2-cyanobutane"
-formula: "C5H9N"
-smiles: "CCC(C)C#N"
-doi: "10.1021/acs.jpca.7b06072"
-notes: "S-red, IIIl rep. Lowest energy anti conformer. Dipoles from quantum chemistry."
-author: "TJB"
+name: 2-cyanobutane
+formula: C5H9N
+smiles: CCC(C)C#N
+doi: 10.1021/acs.jpca.7b06072
+notes: S-red, IIIl rep. Lowest energy anti conformer. Dipoles from quantum chemistry.
+author: TJB
+chi_aa: 0.29545
+chi_bb: -2.14468
+chi_cc: 1.84923
+chi_ab: 2.642

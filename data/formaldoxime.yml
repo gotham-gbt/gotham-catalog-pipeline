@@ -1,4 +1,4 @@
-#Formaldoxime.yml
+# File modified after homogenizing keys#Formaldoxime.yml
 A: 67679.40610
 B: 11859.31955
 C: 10080.03162
@@ -15,16 +15,16 @@ phi_J: 4.146e-9
 phi_JK: 0.0497e-9
 phi_K: 0.01578e-3
 L_KKJ: 0.820e-9
-L_K: -0.00808e-6
-P_KJ: -0.091e-12
-Chi_aa: 2.9870
-Chi_bb: -4.6838
-Chi_ab: 3.6806638
+L_K: -8.08000e-9
+P_KJ: -9.100e-14
 mu_a: 0.26
 mu_b: 0.19
-doi: "10.1051/0004-6361/202040142"
-name: "Formaldoxime"
-formula: "CH2NOH"
-smiles: "C=NO"
-notes: "A and S reduced available in text"
-author: "AMB"
+doi: 10.1051/0004-6361/202040142
+name: Formaldoxime
+formula: CH2NOH
+smiles: C=NO
+notes: A and S reduced available in text
+author: AMB
+chi_aa: 2.9870
+chi_bb: -4.6838
+chi_ab: 3.6806638
