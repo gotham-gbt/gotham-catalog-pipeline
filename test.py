@@ -2,6 +2,7 @@
 from pathlib import Path
 from loguru import logger
 from ruamel.yaml import YAML
+import difflib
 
 
 def test_validate_parsing():
@@ -56,5 +57,16 @@ def test_known_keys():
     This test will check every YAML file to make sure the
     parameter keys are recognized.
     """
+    with open("valid_keys.txt", "r") as read_file:
+        valid_keys = read_file.readlines()
+        valid_keys = [key.strip() for key in valid_keys]
     yml_paths = Path("data").rglob("*.yml")
     yaml_loader = YAML()
+    for path in yml_paths:
+        with open(path, "r") as read_file:
+            logger.debug(f"Opening file {path}")
+            data = yaml_loader.load(read_file)
+            for key in data.keys():
+                if key not in valid_keys:
+                    nearest = difflib.get_close_matches(key, valid_keys)
+                    raise KeyError(f"{key} is not recognized as a valid key; closest matches are {nearest}.")
