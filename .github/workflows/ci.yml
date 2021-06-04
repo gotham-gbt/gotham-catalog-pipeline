@@ -1,11 +1,9 @@
 name: YAML catalog validation
 on:
   push:
-    branches:
-      - main
+    paths: ["data/**", "valid_keys.txt"]
   pull_request:
-    branches:
-      - main
+    paths: ["data/**", "valid_keys.txt"]
 
 jobs:
   build:
