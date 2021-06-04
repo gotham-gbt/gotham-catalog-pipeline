@@ -1,11 +1,11 @@
-name: Project Tests
+name: YAML catalog validation
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
     branches:
-      - master
+      - main
 
 jobs:
   build:
