@@ -13,5 +13,5 @@ mu_b: 5.32
 name: "maleonitrile"
 formula: "C4H2N2"
 smiles: "C(=CC#N)C#N"
-doi:"https://doi.org/10.1021/ja011195t"
+doi: "https://doi.org/10.1021/ja011195t"
 author: "MAS"

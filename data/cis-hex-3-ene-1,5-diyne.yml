@@ -11,5 +11,5 @@ mu_b: 0.18
 name: "cis-Hex-3-ene-1,5-diyne"
 formula: "C4H2N2"
 smiles: "C#CC=CC#C"
-doi:"https://doi.org/10.1021/ja9934908"
+doi: "https://doi.org/10.1021/ja9934908"
 author: "MAS"

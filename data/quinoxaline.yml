@@ -5,12 +5,12 @@
         Delta_J: 0.01779e-03
         Delta_JK: 0.0635e-03
         Delta_K: 0.1557e-03
-        d_1: −5.600e-06
-        d_2: −1.017e-06 
+        d_1: -5.600e-06
+        d_2: -1.017e-06 
         Chi_aa_1: 1.2123
         Chi_aa_2: 1.2123
-        Chi_bb_1 - Chi_cc_1: −8.6681
-        Chi_bb_2 - Chi_cc_2: −8.6681
+        Chi_bb_1 - Chi_cc_1: -8.6681
+        Chi_bb_2 - Chi_cc_2: -8.6681
         u_a: 0.59
         name: "quinoxaline"
         formula: "C8H6N2"

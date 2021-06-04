@@ -14,5 +14,5 @@ mu_c: 0.555
 name: "ethynylphosphine"
 formula: "C2H3P"
 smiles: "C#CP"
-doi:"https://doi.org/10.1021/ic00271a008"
+doi: "https://doi.org/10.1021/ic00271a008"
 author: "MAS"

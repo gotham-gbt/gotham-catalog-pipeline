@@ -13,6 +13,6 @@ mu_a: 2.382
 mu_b: 2.600
 name: "(Z)-Pent-2-en-4-ynenitrile"
 formula: "C5H3N"
-smiles: "C#C/C=C\C#N"
-doi:"https://doi.org/10.1021/ja011195t"
+smiles: r"C#C/C=C\C#N"
+doi: "https://doi.org/10.1021/ja011195t"
 author: "MAS"
