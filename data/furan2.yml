@@ -1,0 +1,23 @@
+# furan2
+A: 9447.12422
+B: 9246.74472
+C: 4670.82631
+Delta_J: 3.33763e-3
+Delta_JK: -5.26342e-3
+Delta_K: 2.28150e-3
+d_1: -51.379e-6
+d_2: 43.10e-6
+H_J: 3.64e-9
+H_JK: -6.099e-9
+H_KJ: 8.04e-9
+H_K: 3.99e-9
+u_a: 0.661
+name: "furan"
+formula: "C4H4O"
+smiles: "C1=COC=C1"
+author: "IRC"
+notes: "test yml for heterocycles article, dipole from Sirvetz J. Chem. Phys. 1951, 19, 1609"
+doi: "doi.org/10.1021/acsearthspacechem.1c00182"
+
+
+
