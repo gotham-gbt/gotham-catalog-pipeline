@@ -1,0 +1,21 @@
+# pyridine
+A: 6039.24428
+B: 5804.91381
+C: 2959.21006
+Delta_J: 1.38966e-03
+Delta_JK: -2.49843e-03
+Delta_K: 1.22178e-03
+del_J: -0.007043e-03
+del_K: -2.0740e-03
+Phi_J: 0.000656e-06
+Phi_JK: -0.004339e-06
+Phi_KJ: 0.009893e-06
+Phi_K: -0.006090e-06
+u_a: 2.215
+name: "pyridine"
+formula: "C5H5N"
+smiles: "C1=CC=NC=C1"
+author: "IRC"
+notes: "No hyperfine, dipole from G.O. Sørensen, L. Mahler, N. Rastrup-Andersen, J. Mol. Struct.
+20 (1974) 119–126."
+doi: "doi:10.1016/j.jms.2005.02.004"
