@@ -1,0 +1,18 @@
+# 1H-pyrrole
+A: 9130.64795
+B: 9001.35664
+C: 4532.11989
+Delta_J: 1.129e-03
+Delta_JK: 3.836e-03
+Delta_K: 2.717900869e-24
+del_J: 0.010157300e-24
+del_K: 6.135949147e-24
+chi_aa: 1.40475
+chi_bb: 1.29577
+u_a: 1.74
+name: "1H-pyrrole"
+formula: "C4H5N"
+smiles: "C1=CNC=C1"
+notes: "dipole moment from cdms not sure the ref, Delta_K much larger on cdms"
+doi: "doi.org/10.1021/acs.jpca.0c02919"
+author: "IRC"
