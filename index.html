@@ -134,6 +134,7 @@
         Phi_J: 0.000233e-6
         ...
         Phi_K: 0.002081e-6
+        rep: "Ir"
         name: "pyridazine"
         formula: "C4H4N2"
         smiles: "C1=CC=NN=C1"
@@ -146,10 +147,58 @@
         <h1>Frequently asked questions</h1>
         <hr>
         <h2>I have XYZ parameters in this paper, how do I code it up?</h2>
-        <p>If it looks complicated, it probably is&mdash;ask for help from one of the resident spectroscopists, like Bryan or Kelvin but probably Bryan.</p>
+        <p>If it looks complicated, it probably is&mdash;ask for help from one of the resident spectroscopists.</p>
         <p>In the near term, for simplicity's sake overly complicated Hamiltonians are not going to be captured in the scope of this hack-a-thon. This is especially true if you see cosine terms and whatnot (i.e. large amplitude motions) in the table, but feel free to ask if unsure.</p>
-        <p>In terms of writing them down in the YAML format, write the parameter names as you would in LaTeX.</p>
-        <p>In terms of the structure of a YAML format for us, all key/values are optional, and so if your molecule is linear don't bother putting down A and C. For the remaining fields, be as consistent as you can:</p>
+        <p>In terms of writing them down in the YAML format, write the parameter names as you would in LaTeX. Here's a non-exhaustive list of parameters currently implemented:</p>
+		<table class="is-striped">
+          <caption>Molecular Constants in PyPickett for Asymmetric Tops</caption>
+          <thead>
+            <tr>
+              <th>Parameter</th>
+              <th>Coding</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>$A,B,C$</td>
+              <td>A, B, C</td>
+            </tr>
+            <tr>
+              <td>$D_J,D_{JK},D_K$</td>
+              <td>D_J, D_JK, D_K</td>
+            </tr>
+			<tr>
+			  <td>$d_1,d_2$</td>
+			  <td>d_1, d_2</td>
+            <tr>
+              <td>$\Delta_J, \Delta_{JK}, \Delta_K$</td>
+              <td>Delta_J, Delta_JK, Delta_K</td>
+            </tr>
+			<tr>
+				<td>$\delta_J, \delta_K$</td>
+				<td>del_J, del_K</td>
+            <tr>
+              <td>$H_{J},H_{JK},H_{KJ},H_K$</td>
+              <td>H_J, H_JK, H_KJ, H_K</td>
+            </tr>
+			<tr>
+			  <td>$h_1,h_2,h_3$</td>
+			  <td>h_1, h_2, h_3</td>
+			</tr>
+			<tr>
+			  <td>$\Phi_J,\Phi_{JK},\Phi_{KJ},\Phi_K$</td>
+			  <td>Phi_J, Phi_JK, Phi_KJ, Phi_K</td>
+			</tr>
+			<tr>
+			  <td>$\phi_J,\phi_{JK},\phi_K$</td>
+			  <td>phi_J, phi_JK, phi_K</td>
+			</tr>
+			<tr>
+			  <td>$\chi_{aa},\chi_{bb},\chi_{cc}$</td>
+			  <td>chi_aa, chi_bb, chi_cc</td>
+          </tbody>
+        </table>
+        <p>Be careful not to mix and match A-reduced and S-reduced names for parameters. In terms of the structure of a YAML format for us, all key/values are optional, and so if your molecule is linear don't bother putting down A and C. For more than one nucleus with spin, add "_1", "_2", etc. for each nucleus. For the remaining fields, be as consistent as you can:</p>
         <pre>
         notes: "Write anything noteworthy about the molecule/paper here"
         doi: "Write the DOI for the paper here"
@@ -206,7 +255,8 @@
         </table>
         <p>If there are terms not in this list, ask a spectroscopist but probably not worth the trouble. Consult <a href="https://list.iupac.org/publications/pac/1994/pdf/6603x0571.pdf">this PDF</a> for some of the more esoteric symbols. If it has cosine and whatnot, it's safe to ignore.</p>
         <h2>How do I know what kind of top molecule X is?</h2>
-        <p>The type of rotor depends on the number of unique inertial axes a molecule has&mdash;basically how many unique ways you can make a molecule rotate. If a molecule has equivalent rotations, then it's not going to be an asymmetric top. On the other end, a linear molecule only has one way to really rotate, which is why only B is defined.</p>
+        <p>The type of rotor depends on the number of unique inertial axes a molecule has&mdash;basically how many unique ways you can make a molecule rotate. If a molecule has equivalent rotations, then it's not going to be an asymmetric top. On the other end, a linear molecule only has one way to really rotate, which is why only B is defined. </p>
+		<p>For asymmetric tops, there are six different choices (Ir, Il, IIr, IIl, IIIr, IIIl) for the axis system of the molecule, corresponding to a, b, c assigned to z, y, x and all permutations. This matters! Look for this value in the paper and include it under the "rep" keyword. SPCAT only handles two cases: Ir and IIIl. If you don't specify one of these two cases, <code>sewers</code> will just choose one of the two based on the asymmetry of the molecule, but this is not great... If you know how to convert the constants between representations, go ahead and do that. This functionality may exist in a future version of this codebase.</p>
         <h2>How do I know what terms to expect?</h2>
         <p>As with all things to do with molecules, it's good to build an internal picture of some "template molecules" to use as a basis for things like symmetry classification, and what parameters to expect you'll need.</p>
         <p>For example, H2CS is very similar to H2CO, and so one would expect the parameter encoding to be very similar. Another example would be CH3NH2&mdash;maybe a little less obvious, but it is similar to ethanol (CH3OH), and so you would expect the same kinds of terms needed, except with a nitrogen. Coincidentally, both have large amplitude motion from NH2 and OH, and so their Hamiltonians are going to be fairly complicated.</p>
