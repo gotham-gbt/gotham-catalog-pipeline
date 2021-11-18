@@ -16,6 +16,7 @@ phi_JK: -4.7e-09
 u_a: 2.985
 u_b: 1.662
 u_c: 1.552 
+rep: "Ir"
 name: "oxiranecarbonitrile"
 formula: "C3H3NO"
 smiles: "C1C(O1)C#N"
