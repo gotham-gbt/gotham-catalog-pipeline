@@ -14,6 +14,5 @@ name: "pyridine"
 formula: "C5H5N"
 smiles: "C1=CC=NC=C1"
 author: "IRC"
-notes: "dipole from G.O. Sørensen, L. Mahler, N. Rastrup-Andersen, J. Mol. Struct.
-20 (1974) 119–126."
+notes: "dipole from doi.org/10.1016/0022-2860(74)85074-X"
 doi: "doi.org/10.1021/acs.jpca.0c02919"
