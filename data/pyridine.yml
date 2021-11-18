@@ -10,6 +10,7 @@ del_K: 0.4922e-03
 chi_aa: -4.91224
 chi_bb: 1.43083
 u_a: 2.215
+rep: "Ir"
 name: "pyridine"
 formula: "C5H5N"
 smiles: "C1=CC=NC=C1"
