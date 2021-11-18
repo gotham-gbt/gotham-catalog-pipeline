@@ -22,9 +22,10 @@ C_bb: 0
 C_cc: 0
 u_b: 2.07
 u_a: 0.54 
+rep: "Ir"
 name: "2H-azirine"
 formula: "C2H3N"
 smiles: "C1C=N1"
 author: "IRC"
-notes: "dipoles in ref 4, Ford 1977"
+notes: "dipoles from doi.org/10.1021/ja00449a085"
 doi: "doi.org/10.1016/0022-2852(86)90270-5"
