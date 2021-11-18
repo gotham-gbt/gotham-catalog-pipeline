@@ -9,6 +9,7 @@ del_J: 1.36518e-3
 del_K: 0.96037e-3
 Phi_JK: -0.03653e-6
 Phi_K: 0.0365e-6
+phi_k: 0.00749e-6
 chi_aa: 1.9260
 chi_bb: 2.6927
 chi_cc: -4.6187
@@ -18,6 +19,6 @@ rep: "Ir"
 name: "azetidine"
 formula: "C3H7N"
 smiles: "N1CCC1"
-doi: "[10.1063/1.1334876, 10.1016/0022-2852(84)90251-0]"
+doi: [10.1063/1.1334876, 10.1016/0022-2852(84)90251-0]
 author: "PBC"
 notes: "constants are for the (0,0)+ tunneling component only, ref 1. dipole from ref 2"
