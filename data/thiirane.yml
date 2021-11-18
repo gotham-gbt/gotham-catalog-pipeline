@@ -1,0 +1,21 @@
+# thiirane/ethylene sulfide
+A: 21973.63006
+B: 10824.92431
+C: 8026.21768
+Delta_J: 7.90770e-03
+Delta_JK: 8.6382e-03
+Delta_K: 20.704e-03
+del_J: 2.192687e-03
+del_K: 15.3817e-03
+Phi_JK: -0.0988e-06
+Phi_KJ: 0.3747e-06
+phi_JK: -0.0589e-06
+phi_K: 0.439e-06
+phi_J: 2.043e-09
+u_b: 1.84
+name: "thiirane"
+formula: "C2H4S"
+smiles: "C1CS1"
+author: "IRC"
+notes: "dipole from cdms, unsure the source"
+doi: "doi.org/10.1006/jmsp.2001.8362"
