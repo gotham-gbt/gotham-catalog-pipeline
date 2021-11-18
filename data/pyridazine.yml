@@ -1,0 +1,32 @@
+# pyridazine.yml
+A: 6242.95041
+B: 5961.09410
+C: 3048.71363
+Delta_J: 0.75676E-3
+Delta_JK: -0.13558E-3
+Delta_K: 0.82976E-3
+del_J: 0.315715E-3
+del_K: 0.68234E-3
+Phi_J: 0.000233E-6
+Phi_JK: -0.00132E-6
+Phi_KJ: 0.00158E-6
+Phi_K: 0.0
+phi_J: 0.000190E-6
+phi_JK: -0.000252E-6
+phi_K: 0.002081E-6
+chi_aa_1: -4.6411
+chi_bb_1: 1.3711
+chi_cc_1: 3.2700
+chi_ab_1: 2.709
+chi_aa_2: -4.6411
+chi_bb_2: 1.3711
+chi_cc_2: 3.2700
+chi_ab_2: 2.709
+u_a: 4.22
+rep: Ir
+doi: [10.1063/1.4832899, 10.1016/S0022-2860(02)00099-6, 10.1515/zna-1967-0414]
+name: pyridazine
+formula: C4H4N2
+smiles: C1=CC=NN=C1
+notes: Constants from Ref 1. N hfs from Ref 2. Dipole from Ref 3. hfs from 2 identical N atoms, not sure if there is an additional consideration in simulating the spectrum...
+author: TJB
