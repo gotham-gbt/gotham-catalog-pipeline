@@ -1,0 +1,22 @@
+# quinoline.yml
+A: 3145.533013
+B: 1271.577972
+C: 905.739406
+Delta_J: 19.1103E-6
+Delta_JK: 47.0313E-6
+Delta_K: 161.461E-6
+del_J: 5.6621E-6
+del_K: 60.622E-6
+chi_aa: 1.4629
+chi_bb: -4.6841
+chi_cc: 3.2213
+chi_ab: 0.35
+u_a: 0.14355
+u_b: 2.0146
+rep: Ir
+doi: [10.1016/S0022-2852(02)00020-6]
+name: quinoline
+formula: C9H7N
+smiles: C1=CC=C2C(=C1)C=CC=N2
+notes: 
+author: TJB
