@@ -1,0 +1,21 @@
+# 1-benzofuran
+A: 3916.5648
+B: 1660.7946
+C: 1166.4178
+Delta_J: 36.4e-06
+Delta_JK: 47e-06 
+Delta_K: 286e-06
+del_J: 11.1e-06
+del_K: 97e-06
+u_b: 0.720
+u_a: 0.216
+rep: "Ir"
+name: "benzofuran"
+formula: "C8H6O"
+smiles: "C1=CC=C2C(=C1)C=CO2"
+doi: "doi: 10.1039/b507795h"
+notes: "dipoles from stark expts in same article"
+author: "IRC"
+
+
+
