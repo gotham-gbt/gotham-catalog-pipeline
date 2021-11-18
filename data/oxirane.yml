@@ -1,0 +1,23 @@
+# oxirane/ethylene oxide
+A: 25483.86060
+B: 22120.87122
+C: 14097.82440
+Delta_J: 20.68572e-03
+Delta_JK: 20.91000e-03
+Delta_K: 27.59143e-03
+del_J: 6.210757e-03
+del_K: 18.10778e-03
+Phi_JK: 0.61135e-06
+Phi_KJ: -2.5999e-06
+phi_JK: 0.27716e-06
+phi_K: -0.3297e-06
+phi_J: -1.324e-09
+l_K: -0.01010e-09
+rep: "Ir"
+u_b: 1.88
+name: "oxirane"
+formula: "C2H4O"
+smiles: "C1CO1"
+author: "IRC"
+notes: "dipole from doi.org/10.1063/1.1748331"
+doi: "doi.org/10.1088/0004-637X/753/1/18"

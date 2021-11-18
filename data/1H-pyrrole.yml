@@ -1,0 +1,22 @@
+# 1H-pyrrole
+A: 9130.63231
+B: 9001.36348
+C: 4532.10977
+Delta_J: 2.92631e-03
+Delta_JK: -4.65102e-03
+Delta_K: 2.0282e-03
+del_J: -0.06348e-03
+del_K: -0.02044e-03
+H_JK: -4.93e-09
+H_KJ: 5.17e-09
+chi_aa: 1.45
+chi_bb: 1.21
+chi_cc: -2.66
+u_a: 1.74
+rep: IIIl
+name: 1H-pyrrole
+formula: C4H5N
+smiles: C1=CNC=C1
+notes: Molecular constants from Ref 1. Dipole moment and hfs constants from Ref 2. Changed manually from IIIr to IIIl rep.
+doi: [10.1016/0022-2852(88)90019-7, 10.1016/0022-2860(69)80031-1]
+author: "TJB"

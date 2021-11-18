@@ -1,0 +1,21 @@
+# benzo[b]thiophene
+A: 3153.78424
+B: 1309.71106
+C: 925.51850
+Delta_J: 0.14120e-03
+Delta_JK: -0.3007e-03
+Delta_K: 0.16981e-03
+del_J: -0.05147e-03
+del_K: 0.08813e-03
+u_b: 0.638
+u_a: 0.170
+rep: "IIIl"
+name: "benzo[b]thiophene"
+formula: "C8H6S"
+smiles: "C1=CC=C2C(=C1)C=CS2"
+doi: "10.1039/A906591A"
+notes: "dipoles calc by IRC at B3LYP 631G11+(d,p)"
+author: "IRC"
+
+
+
