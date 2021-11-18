@@ -14,7 +14,7 @@ name: "benzofuran"
 formula: "C8H6O"
 smiles: "C1=CC=C2C(=C1)C=CO2"
 doi: "doi: 10.1039/b507795h"
-notes: "dipoles from stark expts in same article"
+notes: "dipoles from stark expts in same article, also called 2,3-benzofuran"
 author: "IRC"
 
 
