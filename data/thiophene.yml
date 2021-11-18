@@ -1,0 +1,24 @@
+# thiophene.yml
+A: 8041.594988
+B: 5418.264739
+C: 3235.779214
+Delta_J: 0.837865E-3
+Delta_JK: -0.272860E-3
+Delta_K: 2.32648E-3
+del_J: 0.3116429E-3
+del_K: 0.917685E-3
+Phi_J: 0.0002990E-6
+Phi_JK: -0.000951E-6
+Phi_KJ: -0.001477E-6
+Phi_K: 0.00342E-6
+phi_J: 0.00015371E-6
+phi_JK: -0.0000859E-6
+phi_K: 0.003184E-6
+u_a: 0.55
+rep: Ir
+doi: [10.1063/5.0055267, 10.1016/0022-2852(72)90141-5]
+name: thiophene
+formula: C4H4S
+smiles: C1=CSC=C1
+notes: Constants from Ref 1. Dipole from Ref 2.
+author: TJB
