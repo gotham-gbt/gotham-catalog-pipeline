@@ -13,9 +13,10 @@ phi_JK: -0.0589e-06
 phi_K: 0.439e-06
 phi_J: 2.043e-09
 u_b: 1.84
+rep: "Ir"
 name: "thiirane"
 formula: "C2H4S"
 smiles: "C1CS1"
 author: "IRC"
-notes: "dipole from cdms, unsure the source"
+notes: "dipole from doi.org/10.1063/1.1748331"
 doi: "doi.org/10.1006/jmsp.2001.8362"
