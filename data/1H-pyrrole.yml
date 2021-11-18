@@ -10,6 +10,7 @@ del_K: 6.135949147e-24
 chi_aa: 1.40475
 chi_bb: 1.29577
 u_a: 1.74
+rep: "Ir"
 name: "1H-pyrrole"
 formula: "C4H5N"
 smiles: "C1=CNC=C1"
