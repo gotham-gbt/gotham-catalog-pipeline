@@ -1,0 +1,29 @@
+# thiazole.yml
+A: 8529.447921
+B: 5505.779360
+C: 3344.301222
+Delta_J: 0.912608E-3
+Delta_JK: -0.208669E-3
+Delta_K: 2.535179E-3
+del_J: 0.3335494E-3
+del_K: 1.077224E-3
+Phi_J: 0.0003070E-6
+Phi_JK: -0.001270E-6
+Phi_KJ: -0.001611E-6
+Phi_K: 0.004277E-6
+phi_J: 0.0001570E-6
+phi_JK: -0.000240E-6
+phi_K: 0.003851E-6
+chi_aa: -2.7481
+chi_bb: 0.08505
+chi_cc: 2.6630
+chi_bb-chi_cc: -2.5780
+u_a: 1.286
+u_b: 0.966
+rep: Ir
+doi: [10.1063/5.0057221, 10.1016/0022-2852(62)90230-8, 10.1515/zna-1993-1211]
+name: thiazole
+formula: C3H3NS
+smiles: C1=CSC=N1
+notes: Constants from Ref 1. Dipole from Ref 2. N hfs from Ref 3.
+author: TJB
