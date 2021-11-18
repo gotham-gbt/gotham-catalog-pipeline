@@ -13,6 +13,6 @@ u_a: 1.74
 name: "1H-pyrrole"
 formula: "C4H5N"
 smiles: "C1=CNC=C1"
-notes: "dipole moment from cdms not sure the ref, Delta_K much larger on cdms"
+notes: "dipole moment from doi.org/10.1016/0022-2860(69)80031-1, Delta_K much larger on cdms"
 doi: "doi.org/10.1021/acs.jpca.0c02919"
 author: "IRC"
