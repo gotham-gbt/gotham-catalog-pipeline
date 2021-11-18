@@ -13,6 +13,7 @@ phi_JK: 0.27716e-06
 phi_K: -0.3297e-06
 phi_J: -1.324e-09
 l_K: -0.01010e-09
+rep: "Ir"
 u_b: 1.88
 name: "oxirane"
 formula: "C2H4O"
