@@ -1,0 +1,21 @@
+# 1H-indole
+A: 3877.839600
+B: 1636.046217
+C: 1150.900598
+Delta_J: 0.03505e-03
+Delta_JK: 0.0477e-03
+Delta_K: 0.271e-03
+del_J: 0.01018e-03
+del_K: 0.0949e-03
+chi_aa: 1.72983
+chi_bb: 1.65668
+chi_cc: -3.38651
+u_a: 1.59
+u_b: 1.36
+rep: "Ir"
+name: "indole"
+formula: "C8H7N"
+smiles: "C1=CC=C2C(=C1)C=CN2"
+author: "IRC"
+notes: "dipole moments by stark expt ref: doi.org/10.1016/j.jms.2012.06.005, these guys are making a human scent library"
+doi: "doi.org/10.1016/j.jms.2017.06.006"
