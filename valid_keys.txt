@@ -40,6 +40,8 @@ chi_ab_1
 chi_ab_2
 chi_bb
 chi_bb+chi_cc
+chi_bb-chi_aa_1
+chi_bb-chi_aa_2
 chi_bb-chi_cc
 chi_bb_1
 chi_bb_1-chi_cc_1
