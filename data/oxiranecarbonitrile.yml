@@ -1,0 +1,24 @@
+# oxiranecarbonitrile
+A: 18456.28276
+B: 3524.704148
+C: 3367.811043
+Delta_J: 1.149250e-03
+Delta_JK: -1.74870e-03
+Delta_K: 76.0380e-03
+del_J: -0.0502282e-03
+del_K: 1.3987e-03
+Phi_J: 2.113e-09
+Phi_JK: -15.964e-09
+Phi_KJ: 0.1640e-06
+Phi_K: 0.447e-06
+phi_J: -0.3073e-09
+phi_JK: -4.7e-09
+u_a: 2.985
+u_b: 1.662
+u_c: 1.552 
+name: "oxiranecarbonitrile"
+formula: "C3H3NO"
+smiles: "C1C(O1)C#N"
+author: "IRC"
+notes: "dipoles from doi.org/10.1006/jmsp.1996.0183, is chiral"
+doi: "doi.org/10.1086/382530"
