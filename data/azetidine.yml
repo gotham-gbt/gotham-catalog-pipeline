@@ -9,7 +9,7 @@ del_J: 1.36518e-3
 del_K: 0.96037e-3
 Phi_JK: -0.03653e-6
 Phi_K: 0.0365e-6
-phi_k: 0.00749e-6
+phi_K: 0.00749e-6
 chi_aa: 1.9260
 chi_bb: 2.6927
 chi_cc: -4.6187
