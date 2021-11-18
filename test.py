@@ -37,7 +37,7 @@ def test_value_parsing():
     yml_paths = Path("data").rglob("*.yml")
     yaml_loader = YAML()
     # a list of keys expected to be strings to ignore
-    text_keys = ["name", "formula", "doi", "smiles", "notes", "author"]
+    text_keys = ["name", "formula", "doi", "smiles", "notes", "author", "rep"]
     for path in yml_paths:
         logger.debug(f"Opening file {path}.")
         with open(path, "r") as read_file:
