@@ -1,0 +1,17 @@
+# 2-ethynylpyridine
+A: 5857.3896
+B: 1581.6009
+C: 1245.1200
+D_J: 0.027e-03
+D_JK: 1.117e-03
+chi_aa: -0.348
+chi_bb-chi_cc: 6.3192
+u_a: 2.5
+u_b: -0.1
+rep: "Ir"
+name: "2-ethynylpyridine"
+formula: "C7H5N"
+smiles: "C#CC1=CC=CC=N1"
+author: "IRC"
+notes: "none"
+doi: "doi/10.1021/acs.jpca.1c10013"

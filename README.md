@@ -9,7 +9,7 @@ This repository sets up version control and automated validation for new catalog
 1. Fork this repository and clone it locally.
 2. Install the three packages needed for this repository with `pip install -r requirements.txt` after navigating to it.
 2. Make a new branch: `git checkout -b kelvin_new_catalogs`. Name `kelvin_new_catalogs` to something more descriptive for you.
-3. Add the new YAML files in the standardized format as the other existing YAML files. Consult [the webpage](https://laserkelvin.github.io/gotham-catalog-pipeline/) for the FAQ.
+3. Add the new YAML files in the standardized format as the other existing YAML files. Consult [the webpage](https://gotham-gbt.github.io/gotham-catalog-pipeline/) for the FAQ.
 4. Run `pytest test.py` to validate the entries. If the tests fail, check which test failed and what the logging message is; usually it is a typo you've made in the YAML file.
   - If `test_validation_parsing` fails, there's a problem with the YAML syntax. The logger will tell you which line of the file is bad.
   - If `test_value_parsing` fails, then something that should be a floating point value cannot be converted. Usually this means you've got too many decimal points, or a negative sign was copied from LaTeX which Python doesn't recognize.
