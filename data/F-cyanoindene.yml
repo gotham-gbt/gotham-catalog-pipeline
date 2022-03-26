@@ -1,0 +1,20 @@
+# F-cyanoindene/6-cyanoindene
+A: 3241.0526 
+B: 728.82948 
+C: 597.29716
+Delta_J: 8.52e-06
+Delta_JK: 7.9e-06
+Delta_K: 2.0e-03
+del_J: 2.09e-06
+del_K: 5e-06
+chi_aa: -3.853 
+chi_bb: 1.971
+u_a: 5.62 
+u_b: 0.43
+rep: "Ir"
+name: "1H-indene-6-carbonitrile"
+formula: "C10H7N"
+smiles: "C12=CC=C(C=C1CC=C2)C#N"
+author: "IRC"
+notes: "From Bryan Changala's discharge expts, to be published, smiles could be wrong"
+doi: "TBA"

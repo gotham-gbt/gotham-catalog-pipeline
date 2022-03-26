@@ -1,0 +1,20 @@
+# B-cyanoindene/2-cyanoindene
+A: 3754.427
+B: 675.99176
+C: 574.98249
+Delta_J: 5.84e-06
+Delta_JK: 110e-06
+Delta_K: -18.6e-03
+del_J: 1.42e-06
+del_K: -0.105e-03
+chi_aa: -4.223 
+chi_bb: 2.254 
+u_a: 4.75 
+u_b: 0.29
+rep: "Ir"
+name: "1H-indene-2-carbonitrile"
+formula: "C10H7N"
+smiles: "C1C2=CC=CC=C2C=C1C#N"
+author: "IRC"
+notes: "From Bryan Changala's discharge expts, to be published"
+doi: "TBA"

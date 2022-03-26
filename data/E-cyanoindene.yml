@@ -1,0 +1,20 @@
+# E-cyanoindene/5-cyanoindene
+A: 3254.849
+B: 726.94511
+C: 596.49419
+Delta_J: 8.31e-06
+Delta_JK: 4.4e-06
+Delta_K: 0.14e-03
+del_J: 1.94e-06
+del_K: 0.042e-03
+chi_aa: -3.884
+chi_bb: 1.941 
+u_a: 5.76 
+u_b: 1.31
+rep: "Ir"
+name: "1H-indene-5-carbonitrile"
+formula: "C10H7N"
+smiles: "C12=CC(=CC=C1CC=C2)C#N"
+author: "IRC"
+notes: "From Bryan Changala's discharge expts, to be published, smiles could be wrong"
+doi: "TBA"
